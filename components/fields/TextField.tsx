@@ -199,7 +199,7 @@ function PropertiesComponent({ elementInstance }:{
 function FormComponent({ elementInstance,submitValue,isInvalid,defaultValue }:{
 	elementInstance:FormElementInstance;
 	submitValue?:SubmitFunction;
-	isInvalid:boolean;
+	isInvalid?:boolean;
 	defaultValue?:string
 	
 }) {
